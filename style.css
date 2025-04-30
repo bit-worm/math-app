@@ -135,6 +135,10 @@ form input,
   #comment{
     font-size: 15px;
   }
+  form input {
+    padding: 2px;
+    min-hieght: 100px;
+  }
   #fname,
   #lname,
   #email,

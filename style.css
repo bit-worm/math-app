@@ -136,7 +136,7 @@ form input,
     font-size: 15px;
   }
   form input {
-    padding: 2px;
+    padding: 5px;
     min-hieght: 100px;
   }
   #fname,

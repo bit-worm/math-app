@@ -1,0 +1,155 @@
+h1 {
+  text-align: center;
+}
+
+button:hover {
+  zoom: 120%;
+  cursor: pointer;
+}
+
+.top-section,
+.bottom-section {
+  margin: 20px;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+}
+
+.problem-container,
+.solution-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#problem {
+  font-size: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  margin: 3px;
+  min-width: 250px;
+}
+
+#generate,
+#check {
+  margin: 10px;
+  min-width: 100px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#answer {
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid black;
+  min-height: 30px;
+}
+
+.solution-container p {
+  font-style: italic;
+}
+
+.bottom {
+  background-color: grey;
+  margin: 0;
+  padding: 5px;
+  min-height: 100dvh;
+}
+
+.bottom p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#subscribeForm {
+  padding: 10px;
+}
+
+form input,
+form label,
+#comment{
+  margin: 12px;
+  font-size: 20px;
+}
+
+form input,
+#comment {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#email {
+  margin-bottom: 30px;
+}
+
+#comment {
+  min-width: 350px;
+  min-height: 100px;
+  margin-left: 50px;
+}
+
+#submit {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+  margin-left: 35%;
+}
+
+
+
+/* Responsive design*/
+@media screen and (max-width: 627px){
+  .top-section {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  #subscribeForm {
+    display: flex;
+    flex-direction: column;
+  }
+  #fname,
+  #lname,
+  #email,
+  #comment {
+    margin-top: -8px;
+    max-width: 200px;
+  }
+  #comment {
+    min-width: 100px;
+    margin-left: 12px;
+  }
+  #submit {
+    max-width: 100px;
+  }
+}
+@media screen and (min-width: 578px) {
+  #lname {
+    margin-left: 17px;
+  }
+
+  #email {
+    margin-left: 63px;
+  }
+}

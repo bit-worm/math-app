@@ -111,8 +111,9 @@ form input,
   text-align: center;
   padding: 5px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-left: 35%;
+  min-width: 125px;
 }
 
 
@@ -129,19 +130,25 @@ form input,
     display: flex;
     flex-direction: column;
   }
+  form input,
+  form label,
+  #comment{
+    font-size: 15px;
+  }
   #fname,
   #lname,
   #email,
   #comment {
     margin-top: -8px;
-    max-width: 200px;
+    max-width: 250px;
   }
   #comment {
-    min-width: 100px;
+    min-width: 150px;
     margin-left: 12px;
   }
   #submit {
-    max-width: 100px;
+    max-width: 120px;
+    margin-left: 20%;
   }
 }
 @media screen and (min-width: 578px) {
